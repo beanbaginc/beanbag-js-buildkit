@@ -1,0 +1,16 @@
+{
+    "$schema": "https://json.schemastore.org/tsconfig",
+    "compilerOptions": {
+        "declaration": true,
+        "declarationDir": "${configDir}_build/dts",
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+        "module": "preserve",
+        "moduleResolution": "bundler",
+        "skipLibCheck": true,
+        "strict": true,
+        "target": "ESNext"
+    }
+}

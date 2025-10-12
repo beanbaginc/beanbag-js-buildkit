@@ -1,0 +1,27 @@
+{
+    "name": "@beanbag/js-buildkit",
+    "version": "1.0.3",
+    "description": "Dependencies and tools for building JavaScript for Beanbag products and extensions.",
+    "homepage": "https://github.com/beanbaginc/beanbag-js-buildkit",
+    "github": "https://github.com/beanbaginc/beanbag-js-buildkit.git",
+    "keywords": [
+        "javascript",
+        "typescript"
+    ],
+    "author": {
+        "name": "Beanbag, Inc.",
+        "email": "questions@beanbaginc.com",
+        "url": "http://www.beanbaginc.com"
+    },
+    "license": "MIT",
+    "files": [
+        "LICENSE",
+        "README.md",
+        "tsconfig.json"
+    ],
+    "dependencies": {
+        "@beanbag/eslint-plugin": "^4.0.0",
+        "eslint": "^9.38.0",
+        "typescript": "^5.9.3"
+    }
+}
